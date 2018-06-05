@@ -7,7 +7,7 @@ Pure JavaScript, supports dynamic content heights and components that is aware o
 ## Installation
 
 ```
-npm install --save react-native-simple-accordian lodash
+npm install --save react-native-simple-accordian
 ```
 
 ## Accordion Usage
@@ -15,7 +15,7 @@ npm install --save react-native-simple-accordian lodash
 This is a convenience component for a common use case, see demo below.
 
 ```js
-import SimpleAccordion from 'react-native-simple-accordian/Accordion';
+import SimpleAccordion from 'react-native-simple-accordian';
 <Accordion
   sections={['Accordian 1', 'Accordian 2', 'Accordian 3']}
   renderSectionTitle={this._renderSectionTitle}
@@ -57,7 +57,7 @@ npm install --save react-native-simple-accordian lodash
 ```js
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity,Image,Dimensions,ScrollView } from 'react-native';
-import SimpleAccordion from 'react-native-simple-accordian/Accordion';
+import SimpleAccordion from 'react-native-simple-accordian';
 const deviceWidth = Dimensions.get('window').width
 const accordianData = 'This is sample Accordian Text....';
 import * as _ from 'lodash'
