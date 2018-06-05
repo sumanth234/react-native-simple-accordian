@@ -97,14 +97,8 @@ export default class AccordianExample extends Component {
         this.state = ({
             content:'',
             open: false,
-            collapsed: true
         });
     }
-  
-
-  toggleState = (value) => {
-    this.setState({ collapsed: !this.state.collapsed,content:value.content });
-  };
 
   onChangeAccordian(section) {
     this.setState({ open: section });
