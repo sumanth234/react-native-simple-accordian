@@ -46,7 +46,7 @@ import SimpleAccordion from 'react-native-simple-accordian/Accordion';
 | **`style`**           | Optional styling for the container                                                                                                                 |        
 ## Demo
 
-![demo]
+![demo](./readmePics/Accordian.gif)
 
 ## Example
 
