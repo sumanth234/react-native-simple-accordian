@@ -1,8 +1,8 @@
 # react-native-simple-accordian
 
-_Animated collapsible component for React Native using the Animated API_
+_Animated collapsible component for React Native_
 
-Pure JavaScript, supports dynamic content heights and components that is aware of its `collapsed` state (good for toggling arrows etc).
+Pure JavaScript, supports dynamic content heights and components that is aware of its `collapsed` state (good for toggling arrows etc) with custom styling.
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install --save react-native-simple-accordian
 
 ## Accordion Usage
 
-This is a convenience component for a common use case, see demo below.
+This is a convenience component for a common use case,you can see demo below.
 
 ```js
 import SimpleAccordion from 'react-native-simple-accordian';
@@ -108,7 +108,6 @@ export default class AccordianExample extends Component {
     return (
       <View style={{backgroundColor:'#ffffff',flexDirection:'row'}}>
         <Text style={[styles.headerText,{width:deviceWidth-80,padding:10,textAlign:'left'}]}>{section.title}</Text>
-        {isOpen?<Image style={{width:20,padding:10,alignSelf:'center',justifyContent:'flex-end'}} source={require('../img/up.png')}/>:<Image style={{width:20,padding:10,alignSelf:'center',justifyContent:'flex-end'}} source={require('../img/down.png')}/>}
       </View>
     );
   }

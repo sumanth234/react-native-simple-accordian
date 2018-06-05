@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-accordian",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animated collapsible component for React Native",
   "main": "Accordion.js",
   "scripts": {
@@ -13,7 +13,16 @@
   "keywords": [
     "react-native",
     "accordian",
-    "collapsable"
+    "collapsable",
+    "collapse",
+    "react",
+    "javascript",
+    "android",
+    "ios",
+    "mobile",
+    "react-native accordian",
+    "react-native-accordian",
+    "react-native-simple-accordian"
   ],
   "author": "sumanth <funnyfunko@gmail.com> (https://github.com/sumanth234)",
   "license": "ISC",
