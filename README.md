@@ -17,7 +17,7 @@ This is a convenience component for a common use case, see demo below.
 ```js
 import SimpleAccordion from 'react-native-simple-accordian/Accordion';
 <Accordion
-  sections={['Section 1', 'Section 2', 'Section 3']}
+  sections={['Accordian 1', 'Accordian 2', 'Accordian 3']}
   renderSectionTitle={this._renderSectionTitle}
   renderHeader={this._renderHeader}
   renderContent={this._renderContent}
@@ -57,7 +57,6 @@ npm install --save react-native-simple-accordian lodash
 ```js
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity,Image,Dimensions,ScrollView } from 'react-native';
-import Collapsible from 'react-native-simple-accordian';
 import SimpleAccordion from 'react-native-simple-accordian/Accordion';
 const deviceWidth = Dimensions.get('window').width
 const accordianData = 'This is sample Accordian Text....';
