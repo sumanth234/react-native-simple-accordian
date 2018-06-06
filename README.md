@@ -16,7 +16,7 @@ This is a convenience component for a common use case,you can see demo below.
 
 ```js
 import SimpleAccordion from 'react-native-simple-accordian';
-<Accordion
+<SimpleAccordion
   sections={['Accordian 1', 'Accordian 2', 'Accordian 3']}
   renderSectionTitle={this._renderSectionTitle}
   renderHeader={this._renderHeader}
